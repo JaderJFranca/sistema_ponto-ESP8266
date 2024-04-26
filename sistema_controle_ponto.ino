@@ -57,7 +57,11 @@ void setup()
   WiFi.mode(WIFI_STA);
   
   // Aqui coloca o nome e a senha do Wi-Fi
+<<<<<<< HEAD
   WiFiMulti.addAP("iPhone de Wesley", "12345678");
+=======
+  WiFiMulti.addAP("Nome Wi-fi", "Senha Wi-fi");
+>>>>>>> 89475dd20a24fb3ba5ffd1e020647ad101d1b08b
 
   // Inicializa o SPI (Biblioteca usada para fazer a comunicação entre o leitor RFID com o microcontrolador)
   SPI.begin();
